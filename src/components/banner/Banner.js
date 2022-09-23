@@ -9,17 +9,11 @@ function Banner() {
     const classes=useStyles();
   return (
     <div className={classes.banner}>
-      <Typography variant="h2"
-      align="center"
-      color='primary'
-      >
-       Heading
+      <Typography variant="h2" align="center" color="primary">
+        Heading
       </Typography>
-      <Typography variant="subtitle"
-      align="center"
-      color='secondary'
-      >
-      Get all information regardin your favourite ceypto vcoins
+      <Typography variant="subtitle1" align="center" color="secondary">
+        Get all information regardin your favourite ceypto vcoins
       </Typography>
       <Carousel />
     </div>
