@@ -1,8 +1,7 @@
 import React from "react";
 import "./Home.css";
-
-const Home = () => {
-  return <div>Home</div>;
-};
+import { Banner, CoinsTable } from "../../components";
+function Home(){
+  return <div className="home-page"> <Banner /> <CoinsTable />  </div>; };
 
 export default Home;
