@@ -1,0 +1,8 @@
+.coins{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
