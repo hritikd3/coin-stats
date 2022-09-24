@@ -3,7 +3,7 @@ Coin-Stats
 </h1>
 
 <h2 align="center">
-  ReactJs + GraphJs 💰Crypto Coin Tracker Web App📈 
+  ReactJs + ChartJs 💰Crypto Coin Tracker Web App📈 
 </h2>
 
 <p align="center">
@@ -31,6 +31,7 @@ The technology used are
 -- Enhancement in UI
 - [React](https://reactjs.org/)
 - [ChartJs](https://www.npmjs.com/package/react-chartjs-2)
+- [Material-UI](Users can view all the latest cryptocurrencies)
 - [GitHub](https://github.com)
 - [vercel](https://vercel.com)
 
