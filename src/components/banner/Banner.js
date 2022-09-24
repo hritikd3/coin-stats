@@ -5,7 +5,7 @@ import Carousel from "./Carousel";
 const useStyles = makeStyles(() => ({
   banner: {
     backgroundImage: "url(./banner2.jpg)",
-    // height: "100vh",
+    height: "100vh",
   },
   bannerContent: {
       height:400,
@@ -29,11 +29,11 @@ function Banner() {
     <div className={classes.banner}>
       <Container className={classes.bannerContent}>
         <div className={classes.tagline}>
-          <Typography variant="h2" style={{ fontWeight: "bold" }}>
-            CryptoTracker
+          <Typography variant="h2" style={{ fontWeight: "bold" ,fontFamily:'cursive'}}>
+          Crypto Coin Stats
           </Typography>
-          <Typography variant="subtitle2" style={{color:'darkgray',textTransform:"capitalize"}}>
-              Get all the info regarding your fav Crypto Currency
+          <Typography variant="subtitle2" style={{color:'darkgray',textTransform:"capitalize",fontWeight: '600', padding:'10px'}}>
+              Get all the info regarding your favourite Crypto Currency
           </Typography>
         </div>
         <Carousel/>

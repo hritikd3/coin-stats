@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-// import Pagination from "@material-ui/lab/Pagination";
-// import Pagination from '@mui/material/Pagination';
-// import Stack from '@mui/material/Stack';
+
 import {
   Container,
   createTheme,
@@ -198,22 +196,7 @@ export default function CoinsTable() {
           )}
         </TableContainer>
 
-        {/* Comes from @material-ui/lab */}
-        
-        {/* <Pagination
-          count={(handleSearch()?.length / 10).toFixed(0)}
-          style={{
-            padding: 20,
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-          }}
-          classes={{ ul: classes.pagination }}
-          onChange={(_, value) => {
-            setPage(value);
-            window.scroll(0, 450);
-          }}
-        /> */}
+      
            <TablePagination
       component="div"
       count={(handleSearch()?.length / 10).toFixed(0)}

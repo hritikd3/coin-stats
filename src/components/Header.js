@@ -17,7 +17,7 @@ const useStyles = makeStyles(() => ({
     flex: 1,
     color: "gold",
     fontWeight: "bold",
-    fontFamily: "Montserrat",
+    fontFamily: "cursive",
     cursor: "pointer",
   },
 }));
@@ -41,8 +41,12 @@ function Header() {
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
-            <Typography variant="h6" className={classes.title}>
-              Crypto Tracker
+            <Typography
+              variant="h6"
+              className={classes.title}
+             
+            >
+              Crypto Coin Statistic
             </Typography>
 
             <Select
@@ -51,9 +55,9 @@ function Header() {
               id="demo-simple-select"
               value={currency}
               onChange={(e) => setCurrency(e.target.value)}
-              style={{ width: 100, height: 40, marginLeft: 15}}
+              style={{ width: 100, height: 40, marginLeft: 15 }}
             >
-              <MenuItem  value={"USD"}>USD</MenuItem>
+              <MenuItem value={"USD"}>USD</MenuItem>
               <MenuItem value={"INR"}>INR</MenuItem>
             </Select>
           </Toolbar>
