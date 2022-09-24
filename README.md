@@ -31,7 +31,7 @@ The technology used are
 -- Enhancement in UI
 - [React](https://reactjs.org/)
 - [ChartJs](https://www.npmjs.com/package/react-chartjs-2)
-- [Material-UI](Users can view all the latest cryptocurrencies)
+- [MaterialUi](https://mui.com/)
 - [GitHub](https://github.com)
 - [vercel](https://vercel.com)
 
